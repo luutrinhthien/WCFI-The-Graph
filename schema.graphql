@@ -1,0 +1,8 @@
+type Token @entity {
+  id: ID!
+  tokenId: BigInt!
+  owner: Bytes! # address
+  creator: Bytes! # address
+  price: BigInt
+  country: String!
+}
